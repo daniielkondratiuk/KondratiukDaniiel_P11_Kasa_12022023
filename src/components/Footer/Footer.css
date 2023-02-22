@@ -6,10 +6,10 @@
     width: 100%;
     flex-direction: column;
     row-gap: 25px;
-    background: #000;
+    background: var(--color-black);
     margin-top: 50px;
     padding: 40px 0 29px 0;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .footer__logo {

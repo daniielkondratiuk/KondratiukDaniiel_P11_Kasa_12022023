@@ -15,10 +15,10 @@
     margin: 0;
     padding: 0;
     display: flex;
-    color: #FF6060;
+    color: var(--color-tomato);
     font-size: 24px;
 }
 
 .navbar__link .active {
-    border-bottom: 3px solid #FF6060;
+    border-bottom: 3px solid var(--color-tomato);
 }

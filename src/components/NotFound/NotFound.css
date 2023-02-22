@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: #FF6060;
+    color: var(--color-tomato);
 }
 
 .not-found__code {
@@ -19,6 +19,6 @@
 
 .not-found__link {
     font-size: 18px;
-    border-bottom: 2px solid #FF6060;
+    border-bottom: 2px solid var(--color-tomato);
     margin-top: 150px;
 }
