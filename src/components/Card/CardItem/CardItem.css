@@ -1,0 +1,50 @@
+.card__head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.card__info-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 36px;
+}
+
+.card__location {
+    font-size: 18px;
+    padding: 10px 0 20px 0;
+}
+
+.card__info-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.card__host {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.card__host-name {
+    font-size: 18px;
+    max-width: 100px;
+    text-align: right;
+}
+
+.card__host-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.card__dropdown {
+    display: flex;
+    column-gap: 76px;
+}

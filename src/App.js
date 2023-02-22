@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import data from './data/data.json'
+import * as ROUTES from './constants/routes'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+
+import About from './pages/About'
+import Welcome from './pages/Welcome'
+import Navbar from './components/Navbar/Navbar'
+import CardItem from './components/Card/CardItem/CardItem'
+import Footer from './components/Footer/Footer'
+import Page404 from './pages/Page404'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="app">
+            <div className="container main">
+                <Router>
+                    <Navbar/>
+                    <Routes>
+                        <Route exact path={ROUTES.WELCOME} element={<Welcome data={data}/>}/>
+                        <Route exact path={ROUTES.CARD_ITEM} element={<CardItem data={data}/>}/>
+                        <Route exact path={ROUTES.ABOUT} element={<About/>}/>
+                        <Route path={ROUTES.OTHER} element={<Page404/>}/>
+                    </Routes>
+                </Router>
+            </div>
+            <Footer/>
+        </div>
+    )
 }
 
-export default App;
+export default App

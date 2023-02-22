@@ -1,0 +1,11 @@
+.tags {
+    display: flex;
+    column-gap: 10px;
+}
+
+.tag {
+    background: #FF6060;
+    color: #FFFFFF;
+    padding: 3px 40px;
+    border-radius: 10px;
+}

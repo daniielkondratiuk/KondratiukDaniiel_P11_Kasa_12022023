@@ -1,0 +1,29 @@
+.carousel {
+    position: relative;
+    height: 415px;
+    border-radius: 25px;
+}
+
+.carousel__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+
+}
+
+.carousel__controller {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.carousel__controller-left {
+    left: 0;
+}
+
+.carousel__controller-right {
+    right: 0;
+}
