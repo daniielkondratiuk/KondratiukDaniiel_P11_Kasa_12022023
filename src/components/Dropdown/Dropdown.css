@@ -12,6 +12,7 @@
     border-radius: 10px;
     padding: 13px 20px;
     font-size: 24px;
+    font-weight: 500;
 }
 
 .dropdown__arrow {
@@ -28,10 +29,31 @@
     background: #F7F7F7;
     padding: 18px;
     font-size: 18px;
+    font-weight: 400;
     border-radius: 5px;
     height: 100%;
 }
 
 .dropdown__body.close {
     display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .dropdown {
+        padding-top: 19px;
+    }
+
+    .dropdown__head {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    .dropdown__arrow {
+        width: 20px;
+        height: 20px;
+    }
+
+    .dropdown__body {
+        font-size: 12px;
+    }
 }

@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+    .rating__stars {
+        order: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rating__star {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rating__star img {
+        object-fit: contain;
+    }
+}

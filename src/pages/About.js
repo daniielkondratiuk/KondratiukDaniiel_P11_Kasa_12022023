@@ -7,8 +7,8 @@ import dataAbout from '../data/data-about.json'
 const About = () => {
     return (
         <Fragment>
-            <Banner background={BannerAbout}/>
-            {dataAbout.map(data => (<Dropdown {...data}/>))}
+            <Banner background={BannerAbout} customClass="about"/>
+            {dataAbout.map(data => (<Dropdown key={data.title} {...data}/>))}
         </Fragment>
     )
 }

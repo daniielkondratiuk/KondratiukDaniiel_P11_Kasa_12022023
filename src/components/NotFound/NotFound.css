@@ -22,3 +22,22 @@
     border-bottom: 2px solid var(--color-tomato);
     margin-top: 150px;
 }
+
+.not-found__mobile-brake {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .not-found__code {
+        font-size: 96px;
+        margin-top: 75px;
+    }
+
+    .not-found__description {
+        font-size: 18px;
+    }
+
+    .not-found__mobile-brake {
+        display: block;
+    }
+}

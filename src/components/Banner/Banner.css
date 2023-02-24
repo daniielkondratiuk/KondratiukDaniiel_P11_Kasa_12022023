@@ -13,6 +13,7 @@
     font-weight: 500;
 }
 
+
 .banner__opacity-filter {
     position: absolute;
     border-radius: 25px;
@@ -23,4 +24,22 @@
 
 .banner__title {
     z-index: 1;
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        background-position: left;
+        justify-content: left;
+        margin: 0;
+    }
+
+    .banner__title {
+        font-size: 24px;
+        padding: 0 16px;
+        width: 217px;
+    }
+
+    .banner__welcome {
+        height: 111px;
+    }
 }

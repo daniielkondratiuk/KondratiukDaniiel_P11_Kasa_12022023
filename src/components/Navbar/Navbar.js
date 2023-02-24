@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
             <img className="navbar__logo" src={Logo} alt="logo"/>
             <ul className="navbar__links">
-                <li className="navbar__link" style={{marginRight: '20px'}}>
+                <li className="navbar__link">
                     <NavLink to={WELCOME}>Accueil</NavLink>
                 </li>
                 <li className="navbar__link">

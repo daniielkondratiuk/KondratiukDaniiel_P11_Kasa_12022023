@@ -1,5 +1,6 @@
 .card__head {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 24px;
 }
@@ -47,4 +48,41 @@
 .card__dropdown {
     display: flex;
     column-gap: 76px;
+}
+
+@media screen and (max-width: 576px) {
+    .card__title {
+        font-size: 18px;
+    }
+
+    .card__location {
+        font-size: 14px;
+        padding: 5px 0 10px 0;
+    }
+
+    .card__dropdown {
+        flex-wrap: wrap;
+    }
+
+    .card__info-right {
+        padding-top: 16px;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    .card__host {
+        column-gap: 10px;
+        order: 2;
+    }
+
+    .card__host-name {
+        max-width: 80px;
+        font-size: 12px;
+    }
+
+    .card__host-avatar {
+        width: 32px;
+        height: 32px;
+    }
 }
