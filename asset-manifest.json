@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/KondratiukDaniiel_P11_Kasa_12022023/static/css/main.fb95d8ae.css",
+    "main.js": "/KondratiukDaniiel_P11_Kasa_12022023/static/js/main.43e77140.js",
+    "static/media/BannerAbout.jpg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/BannerAbout.26bc5f49a63e3e76cbe3.jpg",
+    "static/media/Banner.jpg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/Banner.facdd914f986476abee6.jpg",
+    "static/media/Logo.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/Logo.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "static/media/FooterLogo.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/FooterLogo.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/KondratiukDaniiel_P11_Kasa_12022023/index.html",
+    "static/media/DropdownArrowDown.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/DropdownArrowDown.b6ea69f5583a25f5dc053de475ddadc4.svg",
+    "static/media/DropdownArrowUp.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/DropdownArrowUp.80a104dd952c6353bdcfd537b42aa8be.svg",
+    "static/media/CarouselControllerLeft.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/CarouselControllerLeft.f18e212b131cb42c4ab4a1bb15233c34.svg",
+    "static/media/CarouselControllerRight.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/CarouselControllerRight.9268c7b4b26e1fdb907771919bd25895.svg",
+    "static/media/StarGray.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/StarGray.38752bcafc1045fa6b545169fb0eb2eb.svg",
+    "static/media/StarRed.svg": "/KondratiukDaniiel_P11_Kasa_12022023/static/media/StarRed.a21f8abfc51a23975832b769119429bd.svg",
+    "main.fb95d8ae.css.map": "/KondratiukDaniiel_P11_Kasa_12022023/static/css/main.fb95d8ae.css.map",
+    "main.43e77140.js.map": "/KondratiukDaniiel_P11_Kasa_12022023/static/js/main.43e77140.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb95d8ae.css",
+    "static/js/main.43e77140.js"
+  ]
+}
