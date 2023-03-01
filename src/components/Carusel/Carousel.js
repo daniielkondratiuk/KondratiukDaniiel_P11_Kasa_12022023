@@ -22,6 +22,7 @@ const Carousel = ({images}) => {
                 <img src={CarouselControllerLeft} alt="Carousel Controller Left"/>
             </span>
             <img className="carousel__img" src={images[currentImageIndex]} alt="carousel images" />
+            <span className="carousel__img-index">{currentImageIndex+1}/{images.length}</span>
             <span className="carousel__controller carousel__controller-right" onClick={nextImage}>
                 <img src={CarouselControllerRight} alt="Carousel Controller Right"/>
             </span>

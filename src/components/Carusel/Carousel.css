@@ -26,6 +26,15 @@
     height: 100%;
 }
 
+.carousel__img-index {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
+    color: var(--color-white);
+    font-size: 18px;
+}
+
 .carousel__controller-left {
     left: 23px;
 }
@@ -37,6 +46,10 @@
 @media screen and (max-width: 576px) {
     .carousel {
         height: 225px;
+    }
+
+    .carousel__img-index {
+        display: none;
     }
 
     .carousel__controller {
